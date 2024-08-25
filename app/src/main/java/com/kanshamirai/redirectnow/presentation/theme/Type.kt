@@ -45,4 +45,11 @@ data class ExtendedTypography(
         fontWeight = FontWeight.Medium,
         lineHeight = 16.sp,
     ),
+
+    val semiBold16: TextStyle = TextStyle(
+        fontFamily = jakartaFontFamily,
+        fontSize = 16.sp,
+        fontWeight = FontWeight.SemiBold,
+        lineHeight = 24.sp,
+    ),
 )
