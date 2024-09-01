@@ -13,6 +13,7 @@ data class ExtendedColors(
     val grayScale700: Color = Color(0xFF777777),
     val red: Color = Color(0xFFF04E55),
     val blackGrayScale: Color = Color(0xFF111111),
-
-
-    )
+    val lightGray: Color = Color(0xFFE3E3E5),
+    val frostGray:Color = Color(0xFFE3E3E5),
+    val yellow:Color = Color(0xFFFFC107)
+)
