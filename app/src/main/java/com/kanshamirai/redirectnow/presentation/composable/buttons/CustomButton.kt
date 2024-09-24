@@ -23,7 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.kanshamirai.presentation.ui.theme.ExtendedTheme
 
 @Composable
-fun Button(
+fun CustomButton(
     modifier: Modifier = Modifier,
     isEnabled: Boolean = true,
     startIcon: Int? = null,
@@ -65,7 +65,7 @@ fun Button(
                     .padding(horizontal = ExtendedTheme.dimens.dimens3),
                 text = text,
                 textAlign = TextAlign.Center,
-                style = ExtendedTheme.typography.semiBold16
+                style = ExtendedTheme.typography.medium16
             )
             Spacer(Modifier.weight(1f))
             endIcon?.let {
@@ -85,9 +85,9 @@ fun Button(
 @Composable
 fun PreviewButton() {
     ExtendedTheme {
-        Button(
+        CustomButton(
             modifier = Modifier.fillMaxWidth(),
-            text = "Label",
+            text = "Continue com Email",
             isEnabled = true,
             onButtonClick = {},
             endIcon = null,
@@ -101,7 +101,7 @@ fun PreviewButton() {
 @Composable
 fun PreviewButton2() {
     ExtendedTheme {
-        Button(
+        CustomButton(
             modifier = Modifier.fillMaxWidth(),
             text = "Label",
             isEnabled = false,

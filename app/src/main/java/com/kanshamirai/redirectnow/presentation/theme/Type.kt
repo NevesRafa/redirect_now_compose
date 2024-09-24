@@ -66,4 +66,24 @@ data class ExtendedTypography(
         fontWeight = FontWeight.Bold,
         lineHeight = 24.sp,
     ),
+    val bold24: TextStyle = TextStyle(
+        fontFamily = jakartaFontFamily,
+        fontSize = 24.sp,
+        fontWeight = FontWeight.Bold,
+        lineHeight = 32.sp,
+    ),
+
+    val medium14: TextStyle = TextStyle(
+        fontFamily = jakartaFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.Medium,
+        lineHeight = 20.sp,
+    ),
+
+    val semiBold14: TextStyle = TextStyle(
+        fontFamily = jakartaFontFamily,
+        fontSize = 14.sp,
+        fontWeight = FontWeight.SemiBold,
+        lineHeight = 20.sp,
+    ),
 )
